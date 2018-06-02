@@ -1,0 +1,24 @@
+{
+  "name": "pdf-to-mongodb",
+  "version": "1.0.0",
+  "description": "Convert PDF content and layout to the proper JSON object and insert to Database instantly.",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-ensure": "^0.0.0",
+    "sort-json": "^1.6.1",
+    "mongoose": "^5.1.1"
+  },
+  "scripts": {
+    "test": "node pdf2json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahaygun/PDF-to-MongoDB"
+  },
+  "author": "tahaygun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tahaygun/PDF-to-MongoDB"
+  }
+}
